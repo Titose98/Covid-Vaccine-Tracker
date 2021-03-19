@@ -1,4 +1,4 @@
-var entry = document.getElementById("Submit");
+var entry = document.getElementById("submit");
 entry.addEventListener("click", displayDetails);
 
 var row = 1
@@ -25,12 +25,12 @@ function displayDetails() {
    var cell4 = newRow.insertCell(3);
    var cell5 = newRow.insertCell(4);
 
-   cel1.innerHTML = fname;
-   cel2.innerHTML = lname;
-   cel3.innerHTML = date;
-   cel4.innerHTML = administered;
-   cel4.innerHTML = place;
+   cell1.innerHTML = fname;
+   cell2.innerHTML = lname;
+   cell3.innerHTML = date;
+   cell4.innerHTML = administered;
+   cell5.innerHTML = place;
 
    row++;
-   
+
 }
